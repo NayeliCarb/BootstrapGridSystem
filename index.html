@@ -5,7 +5,8 @@
 	<title>Bootstrap: Grid System</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
     <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
     <!--[if lt IE 9]>
@@ -19,21 +20,32 @@
     <div class="container-fluid">
       <div class="row">
           <div class="container">
-            <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-xs-6">
               <h1>Site name</h1>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-3">
               <p class="pHeader lef"><i class="fa fa-home">Noticias</i></p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-3">
               <p class="pHeader borlef"><i class="fa fa-home">Enlaces RSS</i></p>
-              <input placeholder="ingresa tu búsqueda"></input>
+            </div>
+            <div class="col-lg-2 hidden-md hidden-xs">
+              <input class="inpingre" placeholder="ingresa tu búsqueda"></input>
+              <button>buscar</button>
             </div>
           </div>
         </div>
     </div>
   </header>
-  <section>
-  
-        <nav class="navbar navbar-default navPad">
-          <div class="container-fluid ">
-          <div class="container">
+  <section>         
+         <nav class="navbar navbar-inverse navbar1 ">
+         <div class="col-md-12 col-md-12 col-xs-12">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
               <li class="active"><a class="navblanco txt"href="#">Bienvenido</a></li>
               <li><a class="txt"href="#">Acualidades</a></li> 
@@ -42,27 +54,28 @@
               <li><a class="txt"href="#">Nuestra oferta</a></li>
               <li><a class="txt"href="#">De nosotros a usted</a></li> 
             </ul>
-          </div>
-        </nav>
+        </div>
+    </div>
+    <!--dfghjklkjhgfdfghjklkjhgfdfghjk-->
     </div>
   </section>
   <section>
         <div class="row">
             <div class="container">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-8 col-xs-12">
                     <button class="btnhis">Historia destacada</button>
                     <p><b>Artículo</b></p>
-                    <p>publicado el 09/10/15</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-
-                     <!--aqui faltan iconos-->
+                    <p class="clrne">publicado el 09/10/15</p>
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <i class="fa fa-bookmark"><b>Ver más...</b></i> <i class="fa fa-tag"><b>Etiquetas:</b><a class="aIco" href="#">lorem</a><a class="aIco" href="#">ipsum</a><a class="aIco" href="#">diligat</a></i>   
+                     
                     <hr>
                     <button class="btnWeb">Webzone</button>
                     <a href="#">Preguntas</a>
                     <p>publicado 09/10/15</p>
                     <p><b>Lorem ipsum et diligat gentris</b></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                    <!--aqui faltan iconos-->
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <i class="fa fa-bookmark"><b>Ver más...</b></i> <i class="fa fa-tag"><b>Etiquetas:</b><a class="aIco" href="#">lorem</a><a class="aIco" href="#">ipsum</a><a class="aIco" href="#">diligat</a></i>  
                     <hr>
                     <p><b>Artículo</b></p>
                     <p>publicado 09/10/15</p>
@@ -70,20 +83,20 @@
                     <div class="cuadroGris">
                         <p>FOTO</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.</p>
-                    <!--FALTAN ICONOS!!-->
+                    <i class="fa fa-bookmark"><b>Ver más...</b></i> <i class="fa fa-tag"><b>Etiquetas:</b><a class="aIco" href="#">lorem</a><a class="aIco" href="#">ipsum</a><a class="aIco" href="#">diligat</a></i>  
                     <hr>
                     <p><b>lorem ipsum et diligat gentris</b></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.</p>
-                    <!--FALTAN ICONOS!!-->
+                    <i class="fa fa-bookmark"><b>Ver más...</b></i> <i class="fa fa-tag"><b>Etiquetas:</b><a class="aIco clrne" href="#">lorem</a><a class="aIco clrne" href="#">ipsum</a><a class="aIco clrne" href="#">diligat</a></i>  
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="cuadroHisto">
                         <div class="histo">
                             <p>Historia destacada</p>
@@ -91,18 +104,19 @@
                         <div class="cuadrovideo">
                         </div>
                         <div class="cuadroControl">
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play icovideo"></i>
                             <hr class="hrvideo">
-                            <i class="fa fa-volume-up"></i>
-                            <i class="fa fa-arrows-alt"></i><!--NO AGRARRA ICONOS!!-->
+                            <i class="fa fa-volume-up icoVolum"></i>
+                            <i class="fa fa-arrows-alt icoArro"></i>
+                            <i class="fa fa-circle icopunto"></i>
                         </div>
                         <p><b>Claire Dupond</b></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat.</p>
-                        <p>publicado 09/10/15</p>
-                        <!--FALTA ICONO <i class="fa fa-bookmark"></i>-->
+                        <p class="clrne">publicado 09/10/15</p>
+                        <i class="fa fa-bookmark bookVid"><b>Ver más...</b></i>
                     </div>
                     <div class="histo ">
                         <p>Agenda</p>                            
@@ -112,32 +126,32 @@
                             <p>23 Enero</p>
                         </div>
                         <p class="ds1"><b>Lorem ipsum et diligat</b></p>
-                        <p class="ds2">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
-                        <p class="ds3">De 23 a 28 Diciembre 2015</p>
+                        <p class="ds2 clrne">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
+                        <p class="ds3 clrne">De 23 a 28 Diciembre 2015</p>
                     </div>
                     <div class="cuadroFecha">
                         <div class="cuadro his1">
                             <p>23 Enero</p>
                         </div>
                         <p class="ds1"><b>Lorem ipsum et diligat</b></p>
-                        <p class="ds2">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
-                        <p class="ds3">De 23 a 28 Diciembre 2015</p>
+                        <p class="ds2 clrne">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
+                        <p class="ds3 clrne">De 23 a 28 Diciembre 2015</p>
                     </div>
                     <div class="cuadroFecha">
                         <div class="cuadro his1">
                             <p>23 Enero</p>
                         </div>
                         <p class="ds1"><b>Lorem ipsum et diligat</b></p>
-                        <p class="ds2">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
-                        <p class="ds3">De 23 a 28 Diciembre 2015</p>
+                        <p class="ds2 clrne">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
+                        <p class="ds3 clrne">De 23 a 28 Diciembre 2015</p>
                     </div>
                     <div class="cuadroFecha">
                         <div class="cuadro his1">
                             <p>23 Enero</p>
                         </div>
                         <p class="ds1"><b>Lorem ipsum et diligat</b></p>
-                        <p class="ds2">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
-                        <p class="ds3">De 23 a 28 Diciembre 2015</p>
+                        <p class="ds2 clrne">Lorem ipsum dolor sit amet, consecteturadipising elit</p>
+                        <p class="ds3 clrne">De 23 a 28 Diciembre 2015</p>
                     </div>
                     <hr>
                     <p><b>Mas informacion</b></p>
@@ -148,14 +162,98 @@
                     <p><b>Lorem ipsum el diligat</b></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit</p>
                 </div>
+                <div class="col-lg-3 hidden-md hidden-xs">
+                <h2><b>Más información</b></h2>
+                <p><i class="fa fa-bookmark"></i><b>Finanzas y sicalizacion</b></p>
+                <p><i class="fa fa-bookmark"></i><b>Inversión y equipos</b></p>
+                <p><i class="fa fa-bookmark"></i><b>Medio ambiente</b></p>
+                <p><i class="fa fa-bookmark"></i><b>Habitat / Urbanismo</b></p>
+                <p><i class="fa fa-bookmark"></i><b>Sanidad</b></p>
+                <p><i class="fa fa-bookmark"></i><b>Social / Servicios</b></p>
+                <p><i class="fa fa-bookmark"></i><b>Transporte</b></p>
+                <hr>
+                <div class="cuadroHisto hidden-xs">
+                    <h3>MAGAZINE</h3>
+                    <h3><b>ECODEFI</b></h3>
+                    <p class="clrne">ENQUETE</p>
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <p class="clrne">PREGUNTAS</p>
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+                <div class="cuadroHisto hidden-xs">
+                    <h3>MAGAZINE</h3>
+                    <h3><b>ACCIONES COMUNES</b></h3>
+                    <p class="clrne">ENQUETE</p>
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <p class="clrne">PREGUNTAS</p>
+                    <p class="clrne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+                <div class="cuadroHisto hidden-xs">
+                    <p><b>Nueva generacion de la internet</b></p>
+                </div>
+                </div>
             </div>
         </div>
   </section>
+  <footer>
+      <hr id="hrfoot">
+      <div class="container">
+      <div class="col-lg-2 col-md-2 col-xs-6">
+          <p><b>Rubros</b></p>
+          <p><i class="fa fa-bookmark"></i><b>Actualidades</b></p>
+          <p><i class="fa fa-bookmark"></i><b>En directo</b></p>
+          <p><i class="fa fa-bookmark"></i><b>Reporte financiero</b></p>
+          <p><i class="fa fa-bookmark"></i><b>Nuestra oferta</b></p>
+          <p><i class="fa fa-bookmark"></i><b>De nosotros a ustedes</b></p>
+      </div>
+        <div class="col-lg-3 hidden-md hidden-xs">
+            <p><b>Expertise</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Finanzas y sicalizacion</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Inversión y equipos</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Medio ambiente</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Habitat / Urbanismo</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Sanidad</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Social / Servicios</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Transporte</b></p>
+      </div>
+        <div class="col-lg-2 col-md-2 col-xs-6">
+            <p><b>Suscripción</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Todo el flujo</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Flujo RSS para expertos</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Noticias</b></p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-xs-6">
+            <p class="pMedia"><b>Nosotros</b></p>
+            <p><i class="fa fa-bookmark"></i><b>¿Quienes somos?</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Plan del sitio</b></p>
+            <p><i class="fa fa-bookmark"></i><b>informacion legal</b></p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-xs-6">
+            <p class="pcontacto"><b>Contacto</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Contactanos</b></p>
+            <p><i class="fa fa-bookmark"></i><b>FAQ</b></p>
+            <p><i class="fa fa-bookmark"></i><b>Haga sus preguntas</b></p>
+        </div>
+        </div>
+  </footer>
 
 
 	<!-- Incluir todos tus scripts apartir de este punto -->
     <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Incluir todos tus scripts apartir de este punto -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/npm.js"></script>
 </body>
 </html>

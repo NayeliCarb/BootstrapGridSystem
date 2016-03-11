@@ -7,12 +7,14 @@ h1{
 }
 .lef{
 	margin-left: 50%;
+	margin-top: 20%;
 }
 .borlef{
 	border-right: 2px solid black;
 	padding-right: 2%;
+	margin-top: 20%;
 }
-.navPad{
+.navPad{/*esteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 	padding-top: 3%;
 	background-color: #e7e7e7;
 }
@@ -42,6 +44,12 @@ h1{
 .cuadroHisto{
 	background-color: #e7e7e7;
 	width: 100%;
+	padding: 2%;
+	font-size: 80%;
+	margin-bottom: 2%;
+}
+.clrne{
+	color: gray;
 }
 .histo{
 	background-color: gray;
@@ -96,13 +104,80 @@ h1{
 	margin-left: 3%;
 	margin-top: 8%;
 	position:absolute;
+	font-size: 80%;
 }
 .ds3{
 	display: inline-block;
 	margin-left: 3%;
 	margin-top: 15%;
 	position:absolute;
+	font-size: 80%;
 }
 .cuadroFecha{
 	padding-right: -2%;
 }
+#hrfoot{
+	background-color: gray; 
+  	height: .5em;
+}
+.navbar1{
+	padding-top: 3%;
+	background-color: #e7e7e7 !important;
+	border:none !important;
+	border-radius: 0px !important;
+}
+.aIco{
+	margin-left: 2%;
+	text-decoration: underline;
+	color: black
+}
+.bookVid{
+	position: absolute;
+	margin-left: 70%;
+	margin-top: -7%;
+}
+.icovideo{
+	position: absolute;
+	margin-top: 4%;
+	margin-left: 7%;
+}
+.icoVolum{
+	position: absolute;
+	margin-top: -7.5%;
+	margin-left: 75%;
+}
+.icoArro{
+	position: absolute;
+	margin-top: -7.5%;
+	margin-left: 80%;
+}
+.icopunto{
+	position: absolute;
+	margin-top: -7.5%;
+	margin-left: 40%;
+}
+.inpingre{
+	margin-top: 20%;
+	margin-left: -50%;
+}
+@media (min-width: 0px) and (max-width : 767px) {
+	.pMedia{
+		margin-top: 75%;
+	}
+	.pcontacto{
+		margin-top: -125%;
+	}
+	.borlef{
+		border-right: none;
+		margin-left: -78% !important;
+		margin-top: 30% !important;
+	}
+	h1{
+		font-size: large !important;
+	}
+	.lef{
+		margin-left: -60% !important;
+		margin-top: 30% !important;
+	}
+
+	}
