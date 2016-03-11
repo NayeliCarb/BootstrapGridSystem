@@ -1,0 +1,108 @@
+h1{
+	display: inline-block;
+}
+.pHeader{
+	display: inline-block;
+	margin-left: 3%;
+}
+.lef{
+	margin-left: 50%;
+}
+.borlef{
+	border-right: 2px solid black;
+	padding-right: 2%;
+}
+.navPad{
+	padding-top: 3%;
+	background-color: #e7e7e7;
+}
+.navblanco{
+	background-color: white !important;
+}
+.txt{
+	color: black !important;
+}
+.btnhis{
+	border:none;
+	padding:2%;
+	background-color: gray;
+	color: white;
+}
+.btnWeb{
+	background-color: black;
+	color: white;
+	border:none;
+}
+.cuadroGris{
+	width: 100%;
+	padding: 17% 41%;
+	background-color: gray;
+	color: black;
+}
+.cuadroHisto{
+	background-color: #e7e7e7;
+	width: 100%;
+}
+.histo{
+	background-color: gray;
+	color: white;
+	padding-left: 1%;
+	padding-top:2%;
+	padding-bottom: 1%;
+	width: 50%;
+	margin-left: 2%;
+}
+.cuadrovideo{
+	border: 1px solid gray;
+	background-color: white;
+	width: 95%;
+	height: 10em;
+	margin-left: 2.5%;
+	margin-top: 2%;
+}
+.cuadroControl{
+	width: 95%;
+	border:1px solid gray;
+	background-color: #e7e7e7;
+	height: 3em;
+	margin-left: 2.5%;
+}
+.hrvideo{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: white; 
+    height: 2px;
+}
+.his1{
+	padding-top: 3% !important;
+}
+.cuadro{
+	width: 4em;
+	height:4em;
+	background-color: gray;
+	text-align: center;
+	font-size: 120%;
+	color: black;
+	margin-top: 2%;
+	display: inline-block;
+}
+.ds1{
+	margin-top: -16% !important;
+	margin-left: 20% !important;
+	position: absolute;
+}
+.ds2{
+	display: inline-block;
+	margin-left: 3%;
+	margin-top: 8%;
+	position:absolute;
+}
+.ds3{
+	display: inline-block;
+	margin-left: 3%;
+	margin-top: 15%;
+	position:absolute;
+}
+.cuadroFecha{
+	padding-right: -2%;
+}
